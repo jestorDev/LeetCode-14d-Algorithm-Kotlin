@@ -7,7 +7,7 @@ class Solution7 {
             if (numbers[idx_a] + numbers[idx_b] == target)
                 return intArrayOf(idx_a +1 ,  idx_b +1)
 
-            if (numbers[idx_a] + numbers[idx_b] < target)
+            if (numbers[idx_a] + numbers[idx_b] > target)
                 idx_b --
             else
                 idx_a ++
