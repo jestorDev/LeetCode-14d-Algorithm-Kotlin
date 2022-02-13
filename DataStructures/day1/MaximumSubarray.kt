@@ -6,6 +6,9 @@ class Solutio2 {
 
         for (actual in 1..nums.size - 1) {
 
+            
+
+
             if (actual_sum + nums[actual] > nums[actual])
                 actual_sum = actual_sum + nums[actual]
             else
