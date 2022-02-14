@@ -13,7 +13,7 @@ class Solutio3 {
         val needed= mutableMapOf<Int,Int>()
         var actual_needed:Int = 0
         for (i in 0 until nums.size){
-            printMap(needed)
+            //printMap(needed)
             actual_needed = target - nums[i]
             if (needed.containsKey(actual_needed))
                 return (intArrayOf( needed.getValue(actual_needed), i ))
