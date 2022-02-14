@@ -15,9 +15,9 @@ class Solution9 {
                 ans.append( s.substring(i_sta ,i_end).reversed())
 
             i_sta = i_end
-            while (i_end < s.length &&  s [i_end  ] == ' '){
+            while (i_end < s.length &&  s [i_end  ] == ' ')
                 i_end ++
-            }
+            
             if (i_sta < i_end)
             ans.append( " ".repeat(i_end - i_sta ))
             i_sta = i_end
