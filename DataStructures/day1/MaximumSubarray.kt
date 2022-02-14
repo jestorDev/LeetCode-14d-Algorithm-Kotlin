@@ -5,10 +5,6 @@ class Solutio2 {
         var max_sum = nums[0]
 
         for (actual in 1..nums.size - 1) {
-
-            
-
-
             if (actual_sum + nums[actual] > nums[actual])
                 actual_sum = actual_sum + nums[actual]
             else
