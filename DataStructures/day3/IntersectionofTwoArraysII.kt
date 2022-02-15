@@ -3,7 +3,6 @@
 class Solutio5 {
     fun uniques(nums: IntArray): MutableMap<Int , Int>{
         val map_uniques = mutableMapOf<Int , Int>()
-
         for (num in nums)
             map_uniques[num] = if (map_uniques[num] != null) map_uniques[num]!!+1 else 1
         
