@@ -1,4 +1,4 @@
-// 24m06s21
+// 24   m06s21
 class Sol {
     fun matrixReshape(mat: Array<IntArray>, r: Int, c: Int): Array<IntArray> {
         
