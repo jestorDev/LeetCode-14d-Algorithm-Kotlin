@@ -1,10 +1,6 @@
 class Solutio10 {
-    fun isValidSudoku(board: Array<CharArray>): Boolean {
-        
+    fun isValidSudoku(board: Array<CharArray>): Boolean {        
         var check =BooleanArray(9) {false} 
-
-        val h  = 9
-        val w  = 9
         for (r in 0..8  ){
             check =BooleanArray(9) {false} 
             for (c in 0..8 ){
@@ -15,8 +11,6 @@ class Solutio10 {
                 }
             }
         }
-
-
         for (c in 0..8 ){
             check =BooleanArray(9) {false} 
             for (r in 0..8  ){
@@ -28,9 +22,6 @@ class Solutio10 {
             }
         }
         }
-
-
-
         for (r in  0 .. 2 ){
             for (c in 0 .. 2 ){
                 check =BooleanArray(9) {false} 
@@ -44,7 +35,6 @@ class Solutio10 {
                             check [board[rii][cii] - '1'] = true
                     }
                 }}}}
-
         return true
     }
 }
