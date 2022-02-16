@@ -11,7 +11,7 @@ class Solution13 {
                     islandSize(grid, i + 1, j + 0) +
                     islandSize(grid, i - 1, j + 0) +
                     islandSize(grid, i + 0, j - 1)
-        }
+        }   
         return 0
     }
 
