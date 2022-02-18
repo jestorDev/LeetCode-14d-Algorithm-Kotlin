@@ -27,11 +27,14 @@ class Solutio11 {
                 break
             }
         }
-        print(row)
-
+        //print(row)
+        if (row == -1)
+            return false
         val col = search(matrix[row], target)
+        if (col == -1)
+            return false
 
-        println ( "r " + row.toString() + " c " + col.toString() )
+        //println ( "r " + row.toString() + " c " + col.toString() )
 
 
 
